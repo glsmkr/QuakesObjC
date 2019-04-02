@@ -7,10 +7,23 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GLICoordinateRegion : NSObject
+
+- (instancetype)initWithMinLongitude:(double)minLongitude
+                         minLatitude:(double)minLatitude
+                        maxLongitude:(double)maxLongitude
+                         maxLatitude:(double)maxLatitude;
+
+- (instancetype)initWithMapRect:(MKMapRect)mapRect;
+
+@property (nonatomic) double minLongitude;
+@property (nonatomic) double minLatitude;
+@property (nonatomic) double maxLongitude;
+@property (nonatomic) double maxLatitude;
 
 @end
 

@@ -15,6 +15,7 @@
 		C4ED21812253C1FC00909481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21802253C1FC00909481 /* main.m */; };
 		C4ED21892253C23600909481 /* GLIQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21882253C23600909481 /* GLIQuake.m */; };
 		C4ED218C2253D03B00909481 /* GLICoordinateRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED218B2253D03B00909481 /* GLICoordinateRegion.m */; };
+		C4ED218F2253D17A00909481 /* QuakeFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED218E2253D17A00909481 /* QuakeFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C4ED21882253C23600909481 /* GLIQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLIQuake.m; sourceTree = "<group>"; };
 		C4ED218A2253D03B00909481 /* GLICoordinateRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLICoordinateRegion.h; sourceTree = "<group>"; };
 		C4ED218B2253D03B00909481 /* GLICoordinateRegion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLICoordinateRegion.m; sourceTree = "<group>"; };
+		C4ED218D2253D17A00909481 /* QuakeFetcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuakeFetcher.h; sourceTree = "<group>"; };
+		C4ED218E2253D17A00909481 /* QuakeFetcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuakeFetcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				C4ED21872253C23600909481 /* GLIQuake.h */,
 				C4ED21882253C23600909481 /* GLIQuake.m */,
 				C4ED218A2253D03B00909481 /* GLICoordinateRegion.h */,
+				C4ED218D2253D17A00909481 /* QuakeFetcher.h */,
+				C4ED218E2253D17A00909481 /* QuakeFetcher.m */,
 				C4ED218B2253D03B00909481 /* GLICoordinateRegion.m */,
 				C4ED21712253C1FB00909481 /* AppDelegate.h */,
 				C4ED21722253C1FB00909481 /* AppDelegate.m */,
@@ -154,6 +159,7 @@
 				C4ED218C2253D03B00909481 /* GLICoordinateRegion.m in Sources */,
 				C4ED21892253C23600909481 /* GLIQuake.m in Sources */,
 				C4ED21762253C1FB00909481 /* ViewController.m in Sources */,
+				C4ED218F2253D17A00909481 /* QuakeFetcher.m in Sources */,
 				C4ED21812253C1FC00909481 /* main.m in Sources */,
 				C4ED21732253C1FB00909481 /* AppDelegate.m in Sources */,
 			);
