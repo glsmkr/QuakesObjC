@@ -14,6 +14,7 @@
 		C4ED217E2253C1FC00909481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4ED217C2253C1FC00909481 /* LaunchScreen.storyboard */; };
 		C4ED21812253C1FC00909481 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21802253C1FC00909481 /* main.m */; };
 		C4ED21892253C23600909481 /* GLIQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED21882253C23600909481 /* GLIQuake.m */; };
+		C4ED218C2253D03B00909481 /* GLICoordinateRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = C4ED218B2253D03B00909481 /* GLICoordinateRegion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C4ED21802253C1FC00909481 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C4ED21872253C23600909481 /* GLIQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLIQuake.h; sourceTree = "<group>"; };
 		C4ED21882253C23600909481 /* GLIQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLIQuake.m; sourceTree = "<group>"; };
+		C4ED218A2253D03B00909481 /* GLICoordinateRegion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLICoordinateRegion.h; sourceTree = "<group>"; };
+		C4ED218B2253D03B00909481 /* GLICoordinateRegion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLICoordinateRegion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 			children = (
 				C4ED21872253C23600909481 /* GLIQuake.h */,
 				C4ED21882253C23600909481 /* GLIQuake.m */,
+				C4ED218A2253D03B00909481 /* GLICoordinateRegion.h */,
+				C4ED218B2253D03B00909481 /* GLICoordinateRegion.m */,
 				C4ED21712253C1FB00909481 /* AppDelegate.h */,
 				C4ED21722253C1FB00909481 /* AppDelegate.m */,
 				C4ED21742253C1FB00909481 /* ViewController.h */,
@@ -146,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4ED218C2253D03B00909481 /* GLICoordinateRegion.m in Sources */,
 				C4ED21892253C23600909481 /* GLIQuake.m in Sources */,
 				C4ED21762253C1FB00909481 /* ViewController.m in Sources */,
 				C4ED21812253C1FC00909481 /* main.m in Sources */,
